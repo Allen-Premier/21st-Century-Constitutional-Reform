@@ -1,0 +1,27 @@
+/* Styling for Statutory Quote Blocks */
+.statutory-text {
+  margin: 0.75rem 0 1.5rem 0;
+  padding: 1rem 1.25rem;
+  background-color: #f8fafc; /* subtle slate tint */
+  border-left: 4px solid var(--accent-blue); /* or match batch accent color */
+  border-radius: 0 8px 8px 0;
+  font-family: "Alegreya", Georgia, "Times New Roman", serif;
+  font-size: 1.05rem;
+  line-height: 1.7;
+  color: #1e293b;
+}
+
+.statutory-text p {
+  margin-bottom: 0.75rem;
+  text-align: justify;
+}
+
+.statutory-text p:last-child {
+  margin-bottom: 0;
+}
+
+/* Subtle subsection indent inside quote blocks if needed */
+.statutory-text .subsection {
+  margin-left: 1.25rem;
+  margin-top: 0.5rem;
+}
